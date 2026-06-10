@@ -70,7 +70,7 @@ Resume-Screening-System/
 │   ├── gap_analysis.py
 │   └── ranker.py
 │
-├── app.py
+├── app1.py
 ├── ranked_candidates.csv
 ├── requirements.txt
 └── README.md
