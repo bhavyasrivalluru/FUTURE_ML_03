@@ -48,7 +48,16 @@ Dataset Columns Used
 ID
 Resume_str
 Category
-Project Structure
+Dataset Availability
+
+The original dataset is not included in this repository due to GitHub file size limitations.
+
+Download the Resume Dataset from Kaggle and place the file in:
+
+data/Resume.csv
+## Project Structure
+
+```text
 Resume-Screening-System/
 │
 ├── data/
@@ -65,6 +74,4 @@ Resume-Screening-System/
 ├── ranked_candidates.csv
 ├── requirements.txt
 └── README.md
-
-Converting text to lowercase
-Removing special characters
+```
