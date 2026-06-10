@@ -1,11 +1,11 @@
-#AI Resume Screening System
+AI Resume Screening System
 Overview
 
 The AI Resume Screening System is an NLP-powered recruitment tool that automatically screens, scores, and ranks resumes based on a selected job role.
 
 The system helps recruiters and hiring teams reduce manual effort by comparing resume content against job requirements, identifying relevant skills, calculating similarity scores, and highlighting missing skills.
 
-##Features
+Features
 Resume text cleaning and preprocessing
 Skill extraction using NLP techniques
 Job description matching
@@ -15,8 +15,7 @@ Candidate ranking based on role fit
 Skill gap identification
 Interactive Streamlit dashboard
 CSV export of ranked candidates
-
-##Technologies Used
+Technologies Used
 Programming Language
 Python
 Libraries
@@ -30,8 +29,7 @@ Cosine Similarity
 Text Preprocessing
 Skill Extraction
 Dataset
-
-Dataset Used:
+Dataset Used
 
 Resume Dataset (Kaggle)
 
@@ -46,9 +44,7 @@ Agriculture
 Consultant
 Digital Media
 And more
-
-Dataset Columns Used:
-
+Dataset Columns Used
 ID
 Resume_str
 Category
@@ -69,3 +65,6 @@ Resume-Screening-System/
 ├── ranked_candidates.csv
 ├── requirements.txt
 └── README.md
+
+Converting text to lowercase
+Removing special characters
